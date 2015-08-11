@@ -1,0 +1,109 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+#sidebar{
+	background: #20608E;
+	width: 250px;
+	height: 100%;
+	top: 0;
+	left: -250px;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	position: fixed; 
+	transition:left 1s;
+	-webkit-transition:left 1s;
+	-moz-transition:left 1s;
+	-o-transition:left 1s;
+	-ms-transition:left 1s;
+}
+#sidebar:hover{
+	left :0px;
+}
+#logo a {
+	color: #fff;
+	font-size: 20px;
+	border: 4px double;
+	border-radius: 50%;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	line-height: 80px;
+}
+#icono{
+	position: absolute;
+	color: #fff;
+	background: #2A5E84;
+	top: 60px;
+	left: 250px;
+	width: 50px;
+	height: 50px;
+	border-radius: 0px 4px 4px 0px;
+	font-size: 32px;
+	line-height: 50px;
+}
+#menu {
+	margin-top: 30px;
+}
+#menu ul li{
+	font-family: 'Exo 2', sans-serif;
+	height: 40px;
+	margin-top: 5px;
+	transition: background 1s;
+}
+#menu ul li a{
+	color: #fff;
+}
+#menu ul li:hover{
+    background: #4ABCDD;
+	border-left: 4px solid #fff;
+	font-weight: bolder;
+	font-size: 18px
+}
+
+
+#social{
+    position:absolute;
+    bottom:70px;
+    left: 20px;
+}
+#social ul {
+    margin: 10px;
+}
+#social ul li{
+	display: inline;
+	margin-left:10px;
+}
+#social li i{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	color: #fff;
+	border: 2px solid #fff;
+	line-height: 25px;
+}
+
+.fa{
+	line-height: 25px;
+}
+.fa-facebook:hover{
+	background: #3F5C9A;
+	border: 2px solid #3F5C9A;
+}
+.fa-twitter:hover{
+	background: #54A4DE;
+	border: 2px solid #54A4DE;
+}
+.fa-linkedin:hover{
+	background: #37678D;
+	border: 2px solid #37678D;
+}
+#copyright{
+	color: #fff;
+	font-size: 14px;
+}
